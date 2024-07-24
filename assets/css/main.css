@@ -3783,3 +3783,53 @@ input, select, textarea {
 			}
 
 		}
+		/*Form Formatting*/
+
+		#contact h2{
+			text-align: center;
+		}
+
+form > * {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+#contact{
+	padding-top: 20px;
+	padding-bottom: 2rem;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/*Text input field formatting*/
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #3d3d3d;
+    color: #fff;
+	width: 80% !important;
+}
+
+
+/*Text input field when its in focus*/
+input:focus, textarea:focus {
+    background: linear-gradient(45deg, #1d191f, #62c4eb);
+}
+
+/*Form button*/
+#contact button .contactbtn{
+    padding: 30px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    margin-top: 30px !important;
+	text-align: center !important;
+}
+
+/*Form Button when Hovered Formatting*/
+button:hover {
+    background: linear-gradient(45deg, #c196d7, #62c4eb);
+}
