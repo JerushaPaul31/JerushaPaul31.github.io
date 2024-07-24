@@ -136,13 +136,17 @@
 							
 							<section id="contact">
 								<h2>Contact</h2>
-								<form method=“post” action=“subscriberform.php”>
+								<form action="https://api.web3forms.com/submit" method="POST">
+									<!-- Replace with your Access Key -->
+									<input type="hidden" name="access_key" value="5a56f9c5-93fa-4c96-9f67-c5f81c9374f3">
 									<label for="name">Name</label>
 									<input type="text" id="name" name="name">
 									<label for="email">Email</label>
 									<input type="email" id="email" name="email">
 									<label for="message">Message</label>
 									<textarea id="message" name="message"></textarea>
+									<!-- Honeypot Spam Protection -->
+									<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 									<button type="submit" class="contactbtn">Send</button>
 								</form>
 							</section>
